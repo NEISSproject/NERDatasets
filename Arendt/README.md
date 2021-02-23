@@ -1,9 +1,7 @@
 # Digital Edition: Essays from Hannah Arendt
 We have created a NER dataset from the digital edition "Sechs Essays" by Hannah Arendt. It consists of 23 documents from the period 1932-1976, which are available as TEI files online (see https://hannah-arendt-edition.net/3p.html?lang=de). 
 
-![alt text](https://github.com/NEISSproject/NERDatasets/blob/main/Arendt/harendet_license.png "License")
-
-![alt text](https://upload.wikimedia.org/wikipedia/commons/c/ce/Cc-by-nc-sa_euro_icon.svg "License")
+![licence image](https://upload.wikimedia.org/wikipedia/commons/c/ce/Cc-by-nc-sa_euro_icon.svg "License")
 
 This NER Dataset ist licensed under a  
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE).](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
