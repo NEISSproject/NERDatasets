@@ -3,6 +3,9 @@
 Source:
 Schrade, Torsten: „Startseite“, in: DER STURM. Digitale Quellenedition zur Geschichte der internationalen Avantgarde, erarbeitet und herausgegeben von Marjam Trautmann und Torsten Schrade. Mainz, Akademie der Wissenschaften und der Literatur, Version 1 vom 16. Jul. 2018.
 
+This NER Dataset is available under the license
+[Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
 From the Sturm Edition we have built a NER dataset. These are 174 letters from the years 1914-1922, which are available online in TEI format (see https://sturm-edition.de/id/S.0000001). It contains as tagged entities only persons, places and dates. From the original TEI files we build an NER dataset with tags distributed as shown in the following Table
 Tag | number of tags 
 ----|---------------
@@ -17,5 +20,4 @@ It consists of a list of samples. Each sample is in turn a list of words or spec
 
 [[['Peter','B-pers'],[Müller,'I-pers'],['lebt','O'],['in','O'], ['Frankfurt','B-place'],['am','I-place'],['Main','I-place'],['.','O']],[['Gebürtig','O'],['stammt','O'],['er','O'],['aus','O'],['Berlin','B-place']] 
 
-This NER Dataset is available under the license
-[Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+
