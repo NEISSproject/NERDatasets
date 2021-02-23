@@ -3,6 +3,8 @@ We have created a NER dataset from the digital edition "Sechs Essays" by Hannah 
 
 ![alt text](https://github.com/NEISSproject/NERDatasets/blob/main/Arendt/harendet_license.png "License")
 
+![alt text](https://de.wikipedia.org/wiki/Datei:Cc-by-nc-sa_euro_icon.svg "License")
+
 This NER Dataset ist licensed under a  
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE).](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
 
