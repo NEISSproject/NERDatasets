@@ -17,3 +17,5 @@ It consists of a list of samples. Each sample is in turn a list of words or spec
 
 [[['Peter','B-pers'],[Müller,'I-pers'],['lebt','O'],['in','O'], ['Frankfurt','B-place'],['am','I-place'],['Main','I-place'],['.','O']],[['Gebürtig','O'],['stammt','O'],['er','O'],['aus','O'],['Berlin','B-place']] 
 
+This NER Dataset is available under the license
+[Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
