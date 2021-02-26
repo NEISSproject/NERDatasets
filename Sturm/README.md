@@ -14,7 +14,7 @@ date         | 1,178
 place        | 524   
 not tagged   | 33,809 
 
-We provide the dataset in two formats. The first one is the classical CONLL-Format and the second one is an easy json format with the following structure:
+We provide the dataset in two formats. The first one is an easy format similar to the well-known CONLL-X format and the second one is an easy json format with the following structure:
 
 It consists of a list of samples. Each sample is in turn a list of words or special characters. These in turn are represented as a two-element list, where the first element is the word itself and the second element is the corresponding target tag. Here is an example:
 
