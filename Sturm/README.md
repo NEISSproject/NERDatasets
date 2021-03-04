@@ -7,12 +7,12 @@ This NER Dataset is available under the license
 [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
 From the Sturm Edition we have built a NER dataset. These are 174 letters from the years 1914-1922, which are available online in TEI format (see https://sturm-edition.de/id/S.0000001). It contains as tagged entities only persons, places and dates. From the original TEI files we build an NER dataset with tags distributed as shown in the following Table
-Tag | number of tags 
-----|---------------
-pers         | 1,206  
-date         | 1,178  
-place        | 524   
-not tagged   | 33,809 
+Tag | # All | # Train | # Test | # Devel 
+----|-------|---------|--------|--------
+pers         | 930  | 763 | 83 | 84 
+date         | 722 | 612 | 59 | 51  
+place        | 492 | 374 | 59 | 59   
+not tagged   | 33,809 | 27,047 | 3,306 | 3,456
 
 We provide the dataset in two formats together with a partition into a train, dev, and testset. The first one is an easy format similar to the well-known CONLL-X format and the second one is an easy json format with the following structure:
 
