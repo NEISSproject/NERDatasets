@@ -7,15 +7,15 @@ This NER Dataset ist licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE).](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
 
 From the original TEI files we build an NER dataset with tags distributed as shown in the following Table:
-Tag | number of Tags
-----|---------------
-person | 1,904  
-place        | 1,183  
-ethnicity    | 1,143  
-organisation | 541   
-event        | 123   
-language     | 22    
-not tagged   | 153,223
+Tag | # All | # Train | # Test | # Devel
+----|-------|---------|--------|---------
+person | 1,702 | 1,303 | 182 | 217  
+place        | 1,087 | 891 | 111 | 85 
+ethnicity    | 1,093 | 867 | 115 | 111 
+organisation | 455 | 377 | 39 | 39   
+event        | 57 | 49 | 6 | 2    
+language     | 20 | 14 | 4 | 2    
+not tagged   | 153,223 | 121,154 | 16,101 | 15,968
 
 In the original TEI files the class person is additionally divided into "person", "biblicalFigure", "ficticiousPerson", "deity", and "mythologicalFigure", but some of these different "person" sub classes had too few examples. Therefore we have combined these classes into a general class for persons. Furthermore, the class place was divided into "place" and "country". In the original TEI files some countries are also tagged as places. Therefore we combined both classes into one class for general places. Finally there was a class "ship". But in the whole edition there were only 4 examples of this class. That is why we decided to exclude this class from our NER dataset.
 
