@@ -6,6 +6,10 @@ Schrade, Torsten: „Startseite“, in: DER STURM. Digitale Quellenedition zur G
 This NER Dataset is available under the license
 [Creative Commons Attribution 4.0 International (CC-BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
 
+We introduced them in our paper:<br/>
+Zöllner, J.; Sperfeld, K.; Wick, C.; Labahn, R. Optimizing Small BERTs Trained for German NER. Information 2021, 12, 443.<br/>
+https://doi.org/10.3390/info12110443
+
 From the Sturm Edition we have built a NER dataset. These are 174 letters from the years 1914-1922, which are available online in TEI format (see https://sturm-edition.de/id/S.0000001). It contains as tagged entities only persons, places and dates. From the original TEI files we build an NER dataset with tags distributed as shown in the following Table
 Tag | # All | # Train | # Test | # Devel 
 ----|-------|---------|--------|--------
