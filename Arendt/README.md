@@ -6,6 +6,10 @@ We have created a NER dataset from the digital edition "Sechs Essays" by Hannah 
 This NER Dataset ist licensed under a  
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Germany (CC BY-NC-SA 3.0 DE).](http://creativecommons.org/licenses/by-nc-sa/3.0/de/)
 
+We introduced them in our paper:<br/>
+Zöllner, J.; Sperfeld, K.; Wick, C.; Labahn, R. Optimizing Small BERTs Trained for German NER. Information 2021, 12, 443.<br/>
+https://doi.org/10.3390/info12110443
+
 From the original TEI files we build an NER dataset with tags distributed as shown in the following Table:
 Tag | # All | # Train | # Test | # Devel
 ----|-------|---------|--------|---------
